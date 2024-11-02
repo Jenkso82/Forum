@@ -1,0 +1,3800 @@
+<!DOCTYPE html><html id="XF" lang="ru-RU" dir="LTR" data-app="public" data-template="forum_list" data-container-key="" data-content-key="" data-logged-in="false" data-cookie-prefix="xf_" data-csrf="1730565010,6a24c5cc03de7b2b91eac7c83af7176f" class="has-no-js template-forum_list" data-run-jobs=""><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	
+	
+	
+
+	<title>Azure Mobile</title>
+
+	<link rel="manifest" href="/webmanifest.php">
+	
+		<meta name="theme-color" content="#0da9ef">
+	
+
+	<meta name="apple-mobile-web-app-title" content="Azure Mobile">
+	
+		<link rel="apple-touch-icon" href="images/xenforo-logo.png">
+	
+	
+	
+		
+		<meta name="description" content="Официальный форум Azure Mobile®">
+		<meta property="og:description" content="Официальный форум Azure Mobile®">
+		<meta property="twitter:description" content="Официальный форум Azure Mobile®">
+	
+	
+		<link rel="canonical" href="https://forum.azuremobile.ru/index.php">
+	
+		<link rel="alternate" type="application/rss+xml" title="RSS лента для Azure Mobile" href="/index.php?forums/-/index.rss">
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="Azure Mobile">
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website">
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Azure Mobile">
+		<meta property="twitter:title" content="Azure Mobile">
+	
+
+
+	
+	
+	
+		
+	
+	
+	<meta property="og:url" content="https://forum.azuremobile.ru/index.php">
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:image" content="images/xenforo-logo.png">
+		<meta property="twitter:image" content="/data/styles/2/styles/fury/xenforo/xenforo-logo.png">
+		<meta property="twitter:card" content="summary">
+	
+
+
+	
+
+	
+	
+
+	
+	
+	
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-regular-400.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-solid-900.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+<link rel="preload" href="/styles/fonts/fa/fa-brands-400.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css_1.php">
+
+	<link rel="stylesheet" href="css.php">
+
+	
+		<script src="js/preamble.min.js"></script>
+	
+
+
+	
+		<link rel="icon" type="image/png" href="images/xenforo-logo.png" sizes="32x32">
+	
+	
+</head>
+<body data-template="forum_list">
+
+<div class="p-pageWrapper" id="top">
+
+
+	
+
+
+
+
+
+
+	<div class="p-navSticky p-navSticky--primary " data-xf-init="sticky-header">
+		
+	<nav class="p-nav">
+		<div class="p-nav-inner">
+			<button type="button" class="button--plain p-nav-menuTrigger button" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" tabindex="0" aria-label="Меню"><span class="button-text">
+				<i aria-hidden="true"></i>
+			</span></button>
+			
+			
+				<div class="p-nav-smallLogo">
+					<a href="https://forum.azuremobile.ru">
+						<img src="images/xenforo-logo.png" srcset="images/xenforo-logo.png 2x" alt="Azure Mobile" width="75" height="">
+					</a>
+				</div>
+			
+			
+			
+				<div class="p-header-logo p-header-logo--image">
+					<span class="p-header-logo--before"></span>
+						<a href="https://forum.azuremobile.ru">
+						<img src="images/xenforo-logo.png" srcset="images/xenforo-logo.png 2x" alt="Azure Mobile" width="75" height="">
+					</a>
+				</div>
+			
+
+			
+
+			<div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+				<div class="hScroller-scroll">
+					<ul class="p-nav-list js-offCanvasNavSource">
+					
+						<li>
+							
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="https://forum.azuremobile.ru" class="p-navEl-link " data-xf-key="1" data-nav-id="home">Главная</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl is-selected" data-has-children="true">
+		
+
+			
+	
+	<a href="/index.php" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="forums">Форумы</a>
+
+
+			<a data-xf-key="2" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/index.php?whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="newPosts">Новые сообщения</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/index.php?search/&amp;type=post" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="searchForums">Поиск сообщений</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/index.php?whats-new/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="whatsNew">Что нового?</a>
+
+
+			<a data-xf-key="3" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/index.php?whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewPosts">Новые сообщения</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/index.php?whats-new/profile-posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewProfilePosts">Новые сообщения профилей</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/index.php?whats-new/latest-activity" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="latestActivity">Последняя активность</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/index.php?members/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="members">Пользователи</a>
+
+
+			<a data-xf-key="4" data-xf-click="menu" data-menu-pos-ref="< .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/index.php?online/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="currentVisitors">Текущие посетители</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/index.php?whats-new/profile-posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="newProfilePosts">Новые сообщения профилей</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/index.php?search/&amp;type=profile_post" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="searchProfilePosts">Поиск сообщений профилей</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+
+			<div class="p-nav-opposite">
+				<div class="p-navgroup p-account p-navgroup--guest">
+					
+						
+							<a href="/index.php?login/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--logIn" data-xf-click="overlay" data-follow-redirects="on">
+								<i aria-hidden="true"></i>
+								<span class="p-navgroup-linkText">Вход</span>
+							</a>
+						
+						<div class="menu menu--structural menu--medium" data-menu="menu" aria-hidden="true" data-href="/index.php?login/"></div>
+						
+							<a href="/index.php?register/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--register" data-xf-click="overlay" data-follow-redirects="on">
+								<i aria-hidden="true"></i>
+								<span class="p-navgroup-linkText">�&nbsp;егистрация</span>
+							</a>
+						
+					
+				</div>
+
+				<div class="p-navgroup p-discovery">
+					<a href="/index.php?whats-new/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew" aria-label="Что нового?" title="Что нового?">
+						<i aria-hidden="true"></i>
+						<span class="p-navgroup-linkText">Что нового?</span>
+					</a>
+
+					
+						<a href="/index.php?search/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--search" data-xf-click="menu" data-xf-key="/" aria-label="Поиск" aria-expanded="false" aria-haspopup="true" title="Поиск">
+							<i aria-hidden="true"></i>
+							<span class="p-navgroup-linkText">Поиск</span>
+						</a>
+						<div class="menu menu--structural menu--wide" data-menu="menu" aria-hidden="true">
+							<form action="/index.php?search/search" method="post" class="menu-content" data-xf-init="quick-search">
+
+								<h3 class="menu-header">Поиск</h3>
+								
+								<div class="menu-row">
+									
+										<input type="text" class="input" name="keywords" placeholder="Поиск..." aria-label="Поиск" data-menu-autofocus="true">
+									
+								</div>
+
+								
+								<div class="menu-row">
+									<label class="iconic"><input type="checkbox" name="c[title_only]" value="1"><i aria-hidden="true"></i><span class="iconic-label">Искать только в заголовках</span></label>
+
+								</div>
+								
+								<div class="menu-row">
+									<div class="inputGroup">
+										<span class="inputGroup-text" id="ctrl_search_menu_by_member">От:</span>
+										<input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Пользователь" aria-labelledby="ctrl_search_menu_by_member">
+									</div>
+								</div>
+								<div class="menu-footer">
+									<span class="menu-footer-controls">
+										<button type="submit" class="button--primary button button--icon button--icon--search"><span class="button-text">Поиск</span></button>
+										<a href="/index.php?search/" class="button"><span class="button-text">�&nbsp;асширенный поиск...</span></a>
+									</span>
+								</div>
+
+								<input type="hidden" name="_xfToken" value="1730565010,6a24c5cc03de7b2b91eac7c83af7176f">
+							</form>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	</div>
+
+
+<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+	<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+	<div class="offCanvasMenu-content">
+		<div class="offCanvasMenu-header">
+			Меню
+			<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Закрыть"></a>
+		</div>
+		
+			<div class="p-offCanvasRegisterLink">
+				<div class="offCanvasMenu-linkHolder">
+					<a href="/index.php?login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+						Вход
+					</a>
+				</div>
+				<hr class="offCanvasMenu-separator">
+				
+					<div class="offCanvasMenu-linkHolder">
+						<a href="/index.php?register/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+							�&nbsp;егистрация
+						</a>
+					</div>
+					<hr class="offCanvasMenu-separator">
+				
+			</div>
+		
+		<div class="js-offCanvasNavTarget"></div>
+		<div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+			<div class="offCanvasMenu-installBanner-header">Приложение</div>
+			<button type="button" class="js-installPromptButton button"><span class="button-text">Установить</span></button>
+		</div>
+	</div>
+</div>
+
+<div class="p-body">
+	
+		<div class="p-guest--message">
+			<div class="p-guest--message--container">
+				<div class="p-guest--message--inner">
+					
+						<h1>Приветствуем на форуме Azure Mobile</h1>
+<p>Скорее регистрируйтесь на форуме и получите доступ к важным сообщениям, новостям, правилам проекта и другим темам.</p>
+<a href="index.php?register" class="button--cta button button--icon button--icon--write"><span class="button-text">
+�&nbsp;егистрируйтесь!
+</span></a>
+					
+				</div>
+			</div>
+		</div>	
+	
+	
+	<div class="p-body-inner">
+		<!--XF:EXTRA_OUTPUT-->
+
+		
+
+		
+
+		
+	<noscript><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript отключён. Чтобы полноценно использовать наш сайт, включите JavaScript в своём браузере.</div></noscript>
+
+		
+	<div class="blockMessage blockMessage--important blockMessage--iconic js-browserWarning" style="display: none">Вы используете устаревший браузер. Этот и другие сайты могут отображаться в нём некорректно.<br>Вам необходимо обновить браузер или попробовать использовать <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">другой</a>.</div>
+
+		
+		<div class="p-body-nav">
+			
+	
+		<div class="p-sectionLinks">
+			<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+				<div class="hScroller-scroll">
+					<ul class="p-sectionLinks-list">
+					
+						<li>
+							
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="/index.php?whats-new/posts/" class="p-navEl-link " data-xf-key="alt+1" data-nav-id="newPosts">Новые сообщения</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="/index.php?search/&amp;type=post" class="p-navEl-link " data-xf-key="alt+2" data-nav-id="searchForums">Поиск сообщений</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+
+			
+				<div class="p-title-pageAction">
+	
+		<a href="/index.php?whats-new/posts/" class="button button--icon button--icon--bolt"><span class="button-text">
+			Новые сообщения
+		</span></a>
+	
+	
+</div>
+			
+			<span id="collapse-side" class="collapseTrigger collapseTrigger--block  is-active" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".p-body-sidebar, .p-body-content" data-storage-key="_side-1"></span>
+		</div>
+
+		<div class="p-body-header">
+			
+
+			<div class="p-breadcrumbs--container p-breadcrumbs--container--side">
+				
+	
+		<ul class="p-breadcrumbs " itemscope="" itemtype="https://schema.org/BreadcrumbList">
+		
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://forum.azuremobile.ru" itemprop="item">
+			<span itemprop="name">Главная</span>
+		</a>
+		<meta itemprop="position" content="1">
+	</li>
+
+			
+
+			
+			
+
+		
+		</ul>
+	
+
+			</div>
+
+			
+
+			
+				<div class="p-body-header-content">
+					
+						
+							<div class="p-title ">
+							
+								
+									<h1 class="p-title-value">Azure Mobile</h1>
+								
+								
+									<div class="p-title-pageAction">
+	
+		<a href="/index.php?whats-new/posts/" class="button button--icon button--icon--bolt"><span class="button-text">
+			Новые сообщения
+		</span></a>
+	
+	
+</div>
+								
+							
+							</div>
+						
+
+						
+					
+				</div>
+			
+		</div>
+
+		<div class="p-body-main p-body-main--withSidebar ">
+			
+			<div class="p-body-contentCol"></div>
+			
+				<div class="p-body-sidebarCol"></div>
+			
+			
+			
+
+			<div class="p-body-content is-active">
+				
+				<div class="p-body-pageContent">
+
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category4">
+		<span class="u-anchorTarget" id="pravila.4"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				
+				
+					<a href="/index.php#pravila.4">Правила</a>
+				
+				
+				
+				
+				
+					<span id="collapse-4" class="collapseTrigger collapseTrigger--block  is-active" title="Toggle Visibilty" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".block--category4 .block-body" data-storage-key="_node-4"></span>
+				
+			</h2>
+			
+			
+	
+			
+				<div class="block-body block-body--collapsible  is-active">
+			
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id9 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%9E%D0%B1%D1%89%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0.9/" data-xf-init="element-tooltip" data-shortcut="node-description">Общие правила</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>3</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>3</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>3</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>3</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/anastasia-croups.8/" class="avatar avatar--xs" data-user-id="8" data-xf-init="member-tooltip">
+			<img src="images/8.jpg" srcset="images/8_1.jpg 2x" alt="Anastasia Croups" class="avatar-u8-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8.11/post-11" class="node-extra-title" title="Черные списки"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>Черные списки</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-10-12T17:36:56+0300" data-time="1728743816" data-date-string="12 Окт 2024" data-time-string="17:36" title="12 Окт 2024 в 17:36">12 Окт 2024</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/anastasia-croups.8/" class="username " dir="auto" data-user-id="8" data-xf-init="member-tooltip"><span class="username--style5 username--staff username--admin">Anastasia Croups</span></a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id10 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8.10/" data-xf-init="element-tooltip" data-shortcut="node-description">Правила  администрации</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>2</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>2</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>2</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>2</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/andrey_abramov.5/" class="avatar avatar--xs" data-user-id="5" data-xf-init="member-tooltip">
+			<img src="images/5.jpg" srcset="images/5_1.jpg 2x" alt="Andrey_Abramov" class="avatar-u5-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D1%8B-%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B9.17/post-17" class="node-extra-title" title="Нормативы наказаний"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>Нормативы наказаний</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-10-23T18:45:01+0300" data-time="1729698301" data-date-string="23 Окт 2024" data-time-string="18:45" title="23 Окт 2024 в 18:45">23 Окт 2024</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/andrey_abramov.5/" class="username " dir="auto" data-user-id="5" data-xf-init="member-tooltip"><span class="username--style12 username--moderator username--admin">Andrey_Abramov</span></a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id15 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9.15/" data-xf-init="element-tooltip" data-shortcut="node-description">Правила организаций</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>6</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>6</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+		<div class="node-subNodeMenu">
+			<a class="menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Подфорумы</a>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					<h4 class="menu-header">Подфорумы</h4>
+					<ol class="subNodeMenu">
+					
+						
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D0%B8-%D1%81%D1%82%D0%B0%D1%80%D1%88%D0%B5%D0%B3%D0%BE-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B0.16/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Правила лидеров и старшего состава
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9.17/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Правила государственных организаций
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BC%D0%B0%D1%84%D0%B8%D0%B8.18/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Правила мафии
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+					
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>6</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>6</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/andrey_abramov.5/" class="avatar avatar--xs" data-user-id="5" data-xf-init="member-tooltip">
+			<img src="images/5.jpg" srcset="images/5_1.jpg 2x" alt="Andrey_Abramov" class="avatar-u5-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9.18/post-18" class="node-extra-title" title="Правила проведения собеседований"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>Правила проведения собеседований</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-10-23T19:40:00+0300" data-time="1729701600" data-date-string="23 Окт 2024" data-time-string="19:40" title="23 Окт 2024 в 19:40">23 Окт 2024</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/andrey_abramov.5/" class="username " dir="auto" data-user-id="5" data-xf-init="member-tooltip"><span class="username--style12 username--moderator username--admin">Andrey_Abramov</span></a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category47">
+		<span class="u-anchorTarget" id="server-no1.47"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				
+				
+					<a href="/index.php#server-no1.47">Сервер №1</a>
+				
+				
+				
+				
+				
+					<span id="collapse-47" class="collapseTrigger collapseTrigger--block  is-active" title="Toggle Visibilty" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".block--category47 .block-body" data-storage-key="_node-47"></span>
+				
+			</h2>
+			
+			
+	
+			
+				<div class="block-body block-body--collapsible  is-active">
+			
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id19 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8.19/" data-xf-init="element-tooltip" data-shortcut="node-description">Государственные организации</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>43</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>70</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+		<div class="node-subNodeMenu">
+			<a class="menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Подфорумы</a>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					<h4 class="menu-header">Подфорумы</h4>
+					<ol class="subNodeMenu">
+					
+						
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B0%D0%B7%D0%B0.40/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Законодательная база
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B.42/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Федеральные законы
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0-%D0%A0%D0%A4.43/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Постановления правительства �&nbsp;Ф
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE.21/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Правительство
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8.33/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Постановления правительства области
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%B3%D1%83%D0%B1%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B0.34/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Указы губернатора
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A4%D0%A1%D0%91.22/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>ФСБ
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0-%D0%A4%D0%A1%D0%91.35/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Указы начальника ФСБ
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9C%D0%92%D0%94.23/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>МВД
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BF%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9C%D0%92%D0%94.37/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Указы полковника МВД
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%94%D0%9F%D0%A1.24/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>ДПС
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9F%D0%9F%D0%A1.25/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>ППС
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9E%D0%9C%D0%9E%D0%9D.26/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>ОМОН
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%90%D1%80%D0%BC%D0%B8%D1%8F-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.29/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Армия �&nbsp;оссии
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%D1%80%D0%B0-%D0%B2%D0%BE%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D1%87%D0%B0%D1%81%D1%82%D0%B8.36/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Указы командира воинской части
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%B0%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0.27/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Областная больница
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D1%80%D0%B0%D1%87%D0%B0.38/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Указы главного врача
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%9A%D0%B8%D1%80%D0%BE%D0%B2-live.28/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Киров Live
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%A0%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%B6%D0%B8.41/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>�&nbsp;епортажи
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+
+					
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>43</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>70</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" srcset="images/53_1.jpg 2x" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%9C%D0%9E-%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.64/post-139" class="node-extra-title" title="МО || Кабинет Лидера"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>МО || Кабинет Лидера</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-11-02T19:00:14+0300" data-time="1730563214" data-date-string="2 Ноя 2024" data-time-string="19:00" title="2 Ноя 2024 в 19:00">29 мин. назад</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id20 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%9C%D0%B0%D1%84%D0%B8%D0%B8.20/" data-xf-init="element-tooltip" data-shortcut="node-description">Мафии</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>0</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>0</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<span class="node-extra-placeholder">Нет</span>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id55 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%93%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F.55/" data-xf-init="element-tooltip" data-shortcut="node-description">Глобальные мероприятия</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>0</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>0</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<span class="node-extra-placeholder">Нет</span>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id49 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.49/" data-xf-init="element-tooltip" data-shortcut="node-description">Заявления на пост Лидера</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>5</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>39</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>5</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>39</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" srcset="images/53_1.jpg 2x" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%D0%B0-%D0%9C%D0%92%D0%94.71/post-140" class="node-extra-title" title="Заявление на пост лидера МВД"><span class="label label--green" dir="auto">Открыто</span><span class="label-append">�&nbsp;</span>Заявление на пост лидера МВД</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-11-02T19:16:49+0300" data-time="1730564209" data-date-string="2 Ноя 2024" data-time-string="19:16" title="2 Ноя 2024 в 19:16">13 мин. назад</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="node node--id5 node--depth2 node--category node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/index.php?categories/%D0%96%D0%B0%D0%BB%D0%BE%D0%B1%D1%8B.5/" data-xf-init="element-tooltip" data-shortcut="node-description">Жалобы</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Темы</dt>
+								<dd>3</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Сообщения</dt>
+								<dd>3</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+		<div class="node-subNodeMenu">
+			<a class="menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Подфорумы</a>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					<h4 class="menu-header">Подфорумы</h4>
+					<ol class="subNodeMenu">
+					
+						
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%96%D0%B0%D0%BB%D0%BE%D0%B1%D1%8B-%D0%BD%D0%B0-%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%BE%D0%B2.30/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Жалобы на игроков
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%96%D0%B0%D0%BB%D0%BE%D0%B1%D1%8B-%D0%BD%D0%B0-%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D0%B7%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9.31/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Жалобы на лидеров/заместителей
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/index.php?forums/%D0%96%D0%B0%D0%BB%D0%BE%D0%B1%D1%8B-%D0%BD%D0%B0-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2.32/" class="subNodeLink subNodeLink--forum subNodeLink--unread">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Жалобы на администраторов
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+					
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+
+					
+				</div>
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Темы</dt>
+						<dd>3</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Сообщения</dt>
+						<dd>3</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/andrey_abramov.5/" class="avatar avatar--xs" data-user-id="5" data-xf-init="member-tooltip">
+			<img src="images/5.jpg" srcset="images/5_1.jpg 2x" alt="Andrey_Abramov" class="avatar-u5-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D0%BE%D0%B4%D0%B0%D1%87%D0%B8-%D0%B6%D0%B0%D0%BB%D0%BE%D0%B1-%D0%BD%D0%B0-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8E.15/post-15" class="node-extra-title" title="Правила подачи жалоб на администрацию"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>Правила подачи жалоб на администрацию</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li class="node-extra-date"><time class="u-dt" dir="auto" datetime="2024-10-13T13:54:51+0300" data-time="1728816891" data-date-string="13 Окт 2024" data-time-string="13:54" title="13 Окт 2024 в 13:54">13 Окт 2024</time></li>
+							
+								<li class="node-extra-user"><a href="/index.php?members/andrey_abramov.5/" class="username " dir="auto" data-user-id="5" data-xf-init="member-tooltip"><span class="username--moderator username--admin">Andrey_Abramov</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id45 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D1%85-%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2.45/" data-xf-init="element-tooltip" data-shortcut="node-description">�&nbsp;аздел Игровых Помощников</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>4</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>4</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>4</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>4</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/index.php?members/emilio_warner.40/" class="avatar avatar--xs" data-user-id="40" data-xf-init="member-tooltip">
+			<img src="images/40.jpg" srcset="images/40_1.jpg 2x" alt="Emilio_Warner" class="avatar-u40-s" width="48" height="48" loading="lazy"> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/index.php?threads/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%B0.55/post-109" class="node-extra-title" title="Заявление на пост Игрового Помощника"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>Заявление на пост Игрового Помощника</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time class="node-extra-date u-dt" dir="auto" datetime="2024-10-31T15:01:47+0300" data-time="1730376107" data-date-string="31 Окт 2024" data-time-string="15:01" title="31 Окт 2024 в 15:01">Четверг в 15:01</time></li>
+							
+								
+	<li class="node-extra-user"><a href="/index.php?members/emilio_warner.40/" class="username " dir="auto" data-user-id="40" data-xf-init="member-tooltip">Emilio_Warner</a></li>
+
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category3">
+		<span class="u-anchorTarget" id="poleznye-ssylki.3"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				
+				
+					<a href="/index.php#poleznye-ssylki.3">Полезные ссылки</a>
+				
+				
+				
+				
+				
+					<span id="collapse-3" class="collapseTrigger collapseTrigger--block  is-active" title="Toggle Visibilty" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".block--category3 .block-body" data-storage-key="_node-3"></span>
+				
+			</h2>
+			
+			
+	
+			
+				<div class="block-body block-body--collapsible  is-active">
+			
+				
+	
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id51 node--depth2 node--link">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					 <a href="/index.php?link-forums/%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE-telegram.51/" data-xf-init="element-tooltip" data-shortcut="node-description">Официальное сообщество Telegram</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id50 node--depth2 node--link">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					 <a href="/index.php?link-forums/%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0-vk.50/" data-xf-init="element-tooltip" data-shortcut="node-description">Официальная группа VK</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id52 node--depth2 node--link">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					 <a href="/index.php?link-forums/%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-discord-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80.52/" data-xf-init="element-tooltip" data-shortcut="node-description">Официальный Discord сервер</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category39">
+		<span class="u-anchorTarget" id="arxiv.39"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				
+				
+					<a href="/index.php#arxiv.39">Архив</a>
+				
+				
+				
+				
+				
+					<span id="collapse-39" class="collapseTrigger collapseTrigger--block  is-active" title="Toggle Visibilty" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".block--category39 .block-body" data-storage-key="_node-39"></span>
+				
+			</h2>
+			
+			
+	
+			
+				<div class="block-body block-body--collapsible  is-active">
+			
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id54 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/index.php?forums/%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%E2%84%961.54/" data-xf-init="element-tooltip" data-shortcut="node-description">Сервер №1</a>
+					<span class="node--newIndicator">Новое</span>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							
+								<dl class="pairs pairs--inline">
+									<dt>Темы</dt>
+									<dd>0</dd>
+								</dl>
+								<dl class="pairs pairs--inline">
+									<dt>Сообщения</dt>
+									<dd>0</dd>
+								</dl>
+							
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Темы</dt>
+						</dl>
+						<dl class="pairs pairs--rows">
+							<dd>0</dd>
+							<dt>Сообщения</dt>
+						</dl>
+					
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<span class="node-extra-placeholder">Нет</span>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category11">
+		<span class="u-anchorTarget" id="mini-igry.11"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				
+				
+					<a href="/index.php#mini-igry.11">Мини Игры</a>
+				
+				
+				
+				
+				
+					<span id="collapse-11" class="collapseTrigger collapseTrigger--block  is-active" title="Toggle Visibilty" data-xf-click="toggle" data-xf-init="toggle-storage" data-storage-type="cookie" data-target=".block--category11 .block-body" data-storage-key="_node-11"></span>
+				
+			</h2>
+			
+			
+	
+			
+				<div class="block-body block-body--collapsible  is-active">
+			
+				
+	
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id8 node--depth2 node--page">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/index.php?pages/dino/" data-xf-init="element-tooltip" data-shortcut="node-description">Динозавр</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id12 node--depth2 node--page">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/index.php?pages/pacman/" data-xf-init="element-tooltip" data-shortcut="node-description">Pac-Man</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id13 node--depth2 node--page">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/index.php?pages/sorokvosem/" data-xf-init="element-tooltip" data-shortcut="node-description">2048</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+	<div class="node node--id14 node--depth2 node--page">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/index.php?pages/krestnoll/" data-xf-init="element-tooltip" data-shortcut="node-description">Крестики - Нолики</a>
+				</h3>
+				
+
+				
+					<div class="node-meta">
+						
+	
+	
+
+					</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+			</div>
+
+			
+				<div class="p-body-sidebar is-active">
+					
+					
+						
+
+<div class="blocks blocks--login">
+	
+			<form action="/index.php?login/login" method="post" class="block">
+				<input type="hidden" name="_xfToken" value="1730565010,6a24c5cc03de7b2b91eac7c83af7176f">
+				
+		<div class="block-container">
+			<h3 class="block-minorHeader">
+				Вход
+			</h3>
+			<div class="block-body">
+				<div class="block-row">
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-1-1730565010">Имя пользователя или email</label></div>
+				</dt>
+				<dd>
+					<input type="text" class="input" name="login" autocomplete="username" id="_xfUid-1-1730565010">
+				</dd>
+			</dl>
+		
+
+				
+			<dl class="formRow formRow--input">
+				<dt>
+					<div class="formRow-labelWrapper">
+					<label class="formRow-label" for="_xfUid-2-1730565010">Пароль</label></div>
+				</dt>
+				<dd>
+					<input type="password" class="input" name="password" autocomplete="current-password" id="_xfUid-2-1730565010">
+					<a href="/index.php?lost-password/" data-xf-click="overlay">Забыли свой пароль?</a>
+				</dd>
+			</dl>
+		
+
+				
+
+				
+			<dl class="formRow">
+				<dt>
+					<div class="formRow-labelWrapper"></div>
+				</dt>
+				<dd>
+					
+			<ul class="inputChoices">
+				<li class="inputChoices-choice"><label class="iconic"><input type="checkbox" name="remember" value="1" checked="checked"><i aria-hidden="true"></i><span class="iconic-label">Запомнить меня</span></label></li>
+
+			</ul>
+		
+				</dd>
+			</dl>
+		
+					
+			<dl class="formRow formSubmitRow">
+				<dt></dt>
+				<dd>
+					<div class="formSubmitRow-main">
+						<div class="formSubmitRow-bar"></div>
+						<div class="formSubmitRow-controls"><button type="submit" class="button--primary button button--icon button--icon--login"><span class="button-text">Войти</span></button></div>
+					</div>
+				</dd>
+			</dl>
+		
+					
+				
+					<div class="block-outer block-outer--after block-outer--register">
+						<div class="block-outer-middle">
+							У Вас ещё нет учётной записи? <a href="/index.php?register/" class="button"><span class="button-text">Зарегистрируйтесь</span></a>
+						</div>
+					</div>
+				
+					
+				</div>
+			</div>
+			
+		</div>
+
+	
+				
+			</form>
+		
+</div>	
+					
+					
+						<div class="block" data-widget-section="onlineNow" data-widget-id="6" data-widget-key="forum_overview_members_online" data-widget-definition="members_online">
+	<div class="block-container">
+		<h3 class="block-minorHeader"><a href="/index.php?online/">Пользователи онлайн</a></h3>
+		<div class="block-body">
+			
+				<div class="block-row block-row--minor">
+			
+
+				
+					<ul class="listInline listInline--comma">
+						<li><a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li><li><a href="/index.php?members/anatoliy_schastunov.81/" class="username " dir="auto" data-user-id="81" data-xf-init="member-tooltip">Anatoliy_Schastunov</a></li>
+					</ul>
+					
+				
+			</div>
+		</div>
+		<div class="block-footer">
+			<span class="block-footer-counter">Всего:�&nbsp;5 (пользователей:�&nbsp;2, гостей:�&nbsp;3)</span>
+		</div>
+	</div>
+</div>
+
+	<div class="block" data-widget-id="7" data-widget-key="forum_overview_new_posts" data-widget-definition="new_posts">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="/index.php?whats-new/posts/&amp;skip=1" rel="nofollow">Последние сообщения</a>
+				</h3>
+				<ul class="block-body">
+					
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xxs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%D0%B0-%D0%9C%D0%92%D0%94.71/post-140"><span class="label label--green" dir="auto">Открыто</span><span class="label-append">�&nbsp;</span>Заявление на пост лидера МВД</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T19:16:49+0300" data-time="1730564209" data-date-string="2 Ноя 2024" data-time-string="19:16" title="2 Ноя 2024 в 19:16">13 мин. назад</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.49/">Заявления на пост Лидера</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xxs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%9C%D0%9E-%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.64/post-139"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>МО || Кабинет Лидера</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T19:00:14+0300" data-time="1730563214" data-date-string="2 Ноя 2024" data-time-string="19:00" title="2 Ноя 2024 в 19:00">29 мин. назад</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%90%D1%80%D0%BC%D0%B8%D1%8F-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.29/">Армия �&nbsp;оссии</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/kenzo_kinder.71/" class="avatar avatar--xxs" data-user-id="71" data-xf-init="member-tooltip">
+			<img src="images/71.jpg" alt="Kenzo_Kinder" class="avatar-u71-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%9C%D0%9E-%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA-%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8.70/post-136"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>МО || Автопарк Организации</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/kenzo_kinder.71/" class="username " dir="auto" data-user-id="71" data-xf-init="member-tooltip"><span class="username--style11">Kenzo_Kinder</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T09:39:11+0300" data-time="1730529551" data-date-string="2 Ноя 2024" data-time-string="09:39" title="2 Ноя 2024 в 09:39">Сегодня в 09:39</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%90%D1%80%D0%BC%D0%B8%D1%8F-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.29/">Армия �&nbsp;оссии</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/tom_sokolov.61/" class="avatar avatar--xxs" data-user-id="61" data-xf-init="member-tooltip">
+			<img src="images/61.jpg" alt="Tom_Sokolov" class="avatar-u61-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%A4%D0%A1%D0%91-%D0%A3%D0%BA%D0%B0%D0%B7-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0-%D0%A4%D0%A1%D0%91.69/post-135"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>ФСБ || Указ начальника ФСБ</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/tom_sokolov.61/" class="username " dir="auto" data-user-id="61" data-xf-init="member-tooltip"><span class="username--style11">Tom_Sokolov</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T00:54:59+0300" data-time="1730498099" data-date-string="2 Ноя 2024" data-time-string="00:54" title="2 Ноя 2024 в 00:54">Сегодня в 00:54</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0-%D0%A4%D0%A1%D0%91.35/">Указы начальника ФСБ</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/tom_sokolov.61/" class="avatar avatar--xxs" data-user-id="61" data-xf-init="member-tooltip">
+			<img src="images/61.jpg" alt="Tom_Sokolov" class="avatar-u61-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%A4%D0%A1%D0%91-%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.63/post-134"><span class="label label--orange" dir="auto">На рассмотрении</span><span class="label-append">�&nbsp;</span>ФСБ || Кабинет Лидера</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/tom_sokolov.61/" class="username " dir="auto" data-user-id="61" data-xf-init="member-tooltip"><span class="username--style11">Tom_Sokolov</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-01T22:51:30+0300" data-time="1730490690" data-date-string="1 Ноя 2024" data-time-string="22:51" title="1 Ноя 2024 в 22:51">Вчера в 22:51</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%A4%D0%A1%D0%91.22/">ФСБ</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+	</div>
+
+
+	
+	
+
+
+	<div class="block" data-widget-id="8" data-widget-key="forum_overview_new_profile_posts" data-widget-definition="new_profile_posts" data-xf-init="lightbox">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="/index.php?whats-new/profile-posts/&amp;skip=1" rel="nofollow">Сообщения профилей</a>
+				</h3>
+			
+			<div class="block-body js-replyNewMessageContainer">
+				
+				
+					
+						<div class="block-row">
+							
+
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/anastasia-croups.8/" class="avatar avatar--xxs" data-user-id="8" data-xf-init="member-tooltip">
+			<img src="images/8.jpg" alt="Anastasia Croups" class="avatar-u8-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<div class="contentRow-lesser">
+				
+	
+		<a href="/index.php?members/anastasia-croups.8/" class="username " dir="auto" data-user-id="8" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style5 username--staff username--admin">Anastasia Croups</span></a>
+		<i class="fa--xf far fa-caret-right u-muted" aria-hidden="true"></i>
+		<a href="/index.php?members/anatoliy_schastunov.81/" class="username " dir="auto" data-user-id="81" data-xf-init="member-tooltip" aria-hidden="true">Anatoliy_Schastunov</a>
+		<span class="u-srOnly">Anastasia Croups написал(а) в профиле Anatoliy_Schastunov.</span>
+	
+
+			</div>
+
+			
+				<div class="contentRow-faderContainer">
+					<div class="contentRow-faderContent">
+						<div class="bbWrapper">Удачи в начинаниях.</div>
+					</div>
+					<div class="contentRow-fader"></div>
+				</div>
+			
+
+			<div class="contentRow-minor">
+				<a href="/index.php?profile-posts/91/" rel="nofollow" class="u-concealed"><time class="u-dt" dir="auto" datetime="2024-11-02T10:42:12+0300" data-time="1730533332" data-date-string="2 Ноя 2024" data-time-string="10:42" title="2 Ноя 2024 в 10:42">Сегодня в 10:42</time></a>
+				<a href="/index.php?profile-posts/91/" rel="nofollow" class="contentRow-extra" data-xf-click="overlay" data-xf-init="tooltip" title="Взаимодействовать">•••</a>
+			</div>
+		</div>
+	</div>
+
+						</div>
+					
+				
+					
+						<div class="block-row">
+							
+
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/anastasia-croups.8/" class="avatar avatar--xxs" data-user-id="8" data-xf-init="member-tooltip">
+			<img src="images/8.jpg" alt="Anastasia Croups" class="avatar-u8-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<div class="contentRow-lesser">
+				
+	
+		<a href="/index.php?members/anastasia-croups.8/" class="username " dir="auto" data-user-id="8" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style5 username--staff username--admin">Anastasia Croups</span></a>
+		<i class="fa--xf far fa-caret-right u-muted" aria-hidden="true"></i>
+		<a href="/index.php?members/kenzo_kinder.71/" class="username " dir="auto" data-user-id="71" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style11">Kenzo_Kinder</span></a>
+		<span class="u-srOnly">Anastasia Croups написал(а) в профиле Kenzo_Kinder.</span>
+	
+
+			</div>
+
+			
+				<div class="contentRow-faderContainer">
+					<div class="contentRow-faderContent">
+						<div class="bbWrapper">☺️</div>
+					</div>
+					<div class="contentRow-fader"></div>
+				</div>
+			
+
+			<div class="contentRow-minor">
+				<a href="/index.php?profile-posts/90/" rel="nofollow" class="u-concealed"><time class="u-dt" dir="auto" datetime="2024-11-02T10:38:27+0300" data-time="1730533107" data-date-string="2 Ноя 2024" data-time-string="10:38" title="2 Ноя 2024 в 10:38">Сегодня в 10:38</time></a>
+				<a href="/index.php?profile-posts/90/" rel="nofollow" class="contentRow-extra" data-xf-click="overlay" data-xf-init="tooltip" title="Взаимодействовать">•••</a>
+			</div>
+		</div>
+	</div>
+
+						</div>
+					
+				
+					
+						<div class="block-row">
+							
+
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/anastasia-croups.8/" class="avatar avatar--xxs" data-user-id="8" data-xf-init="member-tooltip">
+			<img src="images/8.jpg" alt="Anastasia Croups" class="avatar-u8-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<div class="contentRow-lesser">
+				
+	
+		<a href="/index.php?members/anastasia-croups.8/" class="username " dir="auto" data-user-id="8" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style5 username--staff username--admin">Anastasia Croups</span></a>
+		<i class="fa--xf far fa-caret-right u-muted" aria-hidden="true"></i>
+		<a href="/index.php?members/emilio_warner.40/" class="username " dir="auto" data-user-id="40" data-xf-init="member-tooltip" aria-hidden="true">Emilio_Warner</a>
+		<span class="u-srOnly">Anastasia Croups написал(а) в профиле Emilio_Warner.</span>
+	
+
+			</div>
+
+			
+				<div class="contentRow-faderContainer">
+					<div class="contentRow-faderContent">
+						<div class="bbWrapper">🤫🤭</div>
+					</div>
+					<div class="contentRow-fader"></div>
+				</div>
+			
+
+			<div class="contentRow-minor">
+				<a href="/index.php?profile-posts/89/" rel="nofollow" class="u-concealed"><time class="u-dt" dir="auto" datetime="2024-11-02T10:37:03+0300" data-time="1730533023" data-date-string="2 Ноя 2024" data-time-string="10:37" title="2 Ноя 2024 в 10:37">Сегодня в 10:37</time></a>
+				<a href="/index.php?profile-posts/89/" rel="nofollow" class="contentRow-extra" data-xf-click="overlay" data-xf-init="tooltip" title="Взаимодействовать">•••</a>
+			</div>
+		</div>
+	</div>
+
+						</div>
+					
+				
+					
+						<div class="block-row">
+							
+
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/anatoliy_schastunov.81/" class="avatar avatar--xxs" data-user-id="81" data-xf-init="member-tooltip">
+			<img src="images/81.jpg" alt="Anatoliy_Schastunov" class="avatar-u81-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<div class="contentRow-lesser">
+				
+	
+		<a href="/index.php?members/anatoliy_schastunov.81/" class="username " dir="auto" data-user-id="81" data-xf-init="member-tooltip" aria-hidden="true">Anatoliy_Schastunov</a>
+		<i class="fa--xf far fa-caret-right u-muted" aria-hidden="true"></i>
+		<a href="/index.php?members/amichi-lemberg.31/" class="username " dir="auto" data-user-id="31" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style17">Amichi Lemberg</span></a>
+		<span class="u-srOnly">Anatoliy_Schastunov написал(а) в профиле Amichi Lemberg.</span>
+	
+
+			</div>
+
+			
+				<div class="contentRow-faderContainer">
+					<div class="contentRow-faderContent">
+						<div class="bbWrapper">Как можно попасть к вам в рабство? Точнее вам нужен в рабстве лайкер?</div>
+					</div>
+					<div class="contentRow-fader"></div>
+				</div>
+			
+
+			<div class="contentRow-minor">
+				<a href="/index.php?profile-posts/88/" rel="nofollow" class="u-concealed"><time class="u-dt" dir="auto" datetime="2024-11-01T21:37:01+0300" data-time="1730486221" data-date-string="1 Ноя 2024" data-time-string="21:37" title="1 Ноя 2024 в 21:37">Вчера в 21:37</time></a>
+				<a href="/index.php?profile-posts/88/" rel="nofollow" class="contentRow-extra" data-xf-click="overlay" data-xf-init="tooltip" title="Взаимодействовать">•••</a>
+			</div>
+		</div>
+	</div>
+
+						</div>
+					
+				
+					
+						<div class="block-row">
+							
+
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/amichi-lemberg.31/" class="avatar avatar--xxs" data-user-id="31" data-xf-init="member-tooltip">
+			<img src="images/31.jpg" alt="Amichi Lemberg" class="avatar-u31-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<div class="contentRow-lesser">
+				
+	
+		<a href="/index.php?members/amichi-lemberg.31/" class="username " dir="auto" data-user-id="31" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style17">Amichi Lemberg</span></a>
+		<i class="fa--xf far fa-caret-right u-muted" aria-hidden="true"></i>
+		<a href="/index.php?members/timofey_timoshin.42/" class="username " dir="auto" data-user-id="42" data-xf-init="member-tooltip" aria-hidden="true"><span class="username--style9">Timofey_Timoshin</span></a>
+		<span class="u-srOnly">Amichi Lemberg написал(а) в профиле Timofey_Timoshin.</span>
+	
+
+			</div>
+
+			
+				<div class="contentRow-faderContainer">
+					<div class="contentRow-faderContent">
+						<div class="bbWrapper">Мой раб</div>
+					</div>
+					<div class="contentRow-fader"></div>
+				</div>
+			
+
+			<div class="contentRow-minor">
+				<a href="/index.php?profile-posts/87/" rel="nofollow" class="u-concealed"><time class="u-dt" dir="auto" datetime="2024-11-01T21:31:13+0300" data-time="1730485873" data-date-string="1 Ноя 2024" data-time-string="21:31" title="1 Ноя 2024 в 21:31">Вчера в 21:31</time></a>
+				<a href="/index.php?profile-posts/87/" rel="nofollow" class="contentRow-extra" data-xf-click="overlay" data-xf-init="tooltip" title="Взаимодействовать">•••</a>
+			</div>
+		</div>
+	</div>
+
+						</div>
+					
+				
+			</div>
+			
+		</div>
+	</div>
+
+<div class="block" data-widget-id="9" data-widget-key="forum_overview_forum_statistics" data-widget-definition="forum_statistics">
+	<div class="block-container">
+		<h3 class="block-minorHeader">Статистика форума</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified">
+				<dt>Темы</dt>
+				<dd>66</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Сообщения</dt>
+				<dd>126</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Пользователи</dt>
+				<dd>74</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Новый пользователь</dt>
+				<dd>
+	<a href="/index.php?members/twix_vortexzz.104/" class="username " dir="auto" data-user-id="104" data-xf-init="member-tooltip">Twix_Vortexzz</a>
+</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+	<div class="block" data-widget-id="10" data-widget-key="forum_overview_share_page" data-widget-definition="share_page">
+		<div class="block-container">
+			<h3 class="block-minorHeader">Поделиться страницей</h3>
+			<div class="block-body block-row">
+				
+					
+
+	
+		
+
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons" data-page-url="" data-page-title="" data-page-desc="" data-page-image="">
+			
+
+			<div class="shareButtons-buttons">
+				
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}">
+							<i aria-hidden="true"></i>
+							<span>Facebook</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter" data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}">
+							<i aria-hidden="true"></i>
+							<span>Twitter</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+							<i aria-hidden="true"></i>
+							<span>Reddit</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--pinterest" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}&amp;media={image}">
+							<i aria-hidden="true"></i>
+							<span>Pinterest</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
+							<i aria-hidden="true"></i>
+							<span>Tumblr</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}�&nbsp;{url}">
+							<i aria-hidden="true"></i>
+							<span>WhatsApp</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--email" data-href="mailto:?subject={title}&amp;body={url}">
+							<i aria-hidden="true"></i>
+							<span>Электронная почта</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--share is-hidden" data-xf-init="web-share" data-title="" data-text="" data-url="" data-hide=".shareButtons-button:not(.shareButtons-button--share)">
+
+							<i aria-hidden="true"></i>
+							<span>Поделиться</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--link is-hidden" data-clipboard="{url}">
+							<i aria-hidden="true"></i>
+							<span>Ссылка</span>
+						</a>
+					
+				
+			</div>
+		</div>
+	
+
+				
+			</div>
+		</div>
+	</div>
+					
+					
+				</div>
+			
+		</div>
+
+		
+		
+	
+		<ul class="p-breadcrumbs p-breadcrumbs--bottom" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+		
+			
+
+			
+			
+				
+				
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://forum.azuremobile.ru" itemprop="item">
+			<span itemprop="name">Главная</span>
+		</a>
+		<meta itemprop="position" content="1">
+	</li>
+
+			
+
+			
+			
+
+		
+		</ul>
+	
+
+		
+	</div>
+</div>
+	
+<div class="pre-footer">
+	<div class="pre-footer-inner">
+		<div class="pre-footer--container">
+			<div class="pre-footer--column">
+				
+					<div class="block" data-widget-id="3" data-widget-key="online_list_online_statistics" data-widget-definition="online_statistics">
+	<div class="block-container">
+		<h3 class="block-minorHeader">Онлайн статистика</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified">
+				<dt>Пользователей онлайн</dt>
+				<dd>2</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Гостей онлайн</dt>
+				<dd>3</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Всего посетителей</dt>
+				<dd>5</dd>
+			</dl>
+		</div>
+		<div class="block-footer">
+			Общее количество посетителей может включать в себя скрытых пользователей.
+		</div>
+	</div>
+</div>
+
+				
+			</div>
+			<div class="pre-footer--column">
+				
+					
+	<div class="block" data-widget-id="7" data-widget-key="forum_overview_new_posts" data-widget-definition="new_posts">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="/index.php?whats-new/posts/&amp;skip=1" rel="nofollow">Последние сообщения</a>
+				</h3>
+				<ul class="block-body">
+					
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xxs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%D0%B0-%D0%9C%D0%92%D0%94.71/post-140"><span class="label label--green" dir="auto">Открыто</span><span class="label-append">�&nbsp;</span>Заявление на пост лидера МВД</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T19:16:49+0300" data-time="1730564209" data-date-string="2 Ноя 2024" data-time-string="19:16" title="2 Ноя 2024 в 19:16">13 мин. назад</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.49/">Заявления на пост Лидера</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/yan_carhartt.53/" class="avatar avatar--xxs" data-user-id="53" data-xf-init="member-tooltip">
+			<img src="images/53.jpg" alt="Yan_Carhartt" class="avatar-u53-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%9C%D0%9E-%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.64/post-139"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>МО || Кабинет Лидера</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/yan_carhartt.53/" class="username " dir="auto" data-user-id="53" data-xf-init="member-tooltip">Yan_Carhartt</a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T19:00:14+0300" data-time="1730563214" data-date-string="2 Ноя 2024" data-time-string="19:00" title="2 Ноя 2024 в 19:00">29 мин. назад</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%90%D1%80%D0%BC%D0%B8%D1%8F-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.29/">Армия �&nbsp;оссии</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/kenzo_kinder.71/" class="avatar avatar--xxs" data-user-id="71" data-xf-init="member-tooltip">
+			<img src="images/71.jpg" alt="Kenzo_Kinder" class="avatar-u71-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%9C%D0%9E-%D0%90%D0%B2%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA-%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8.70/post-136"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>МО || Автопарк Организации</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/kenzo_kinder.71/" class="username " dir="auto" data-user-id="71" data-xf-init="member-tooltip"><span class="username--style11">Kenzo_Kinder</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T09:39:11+0300" data-time="1730529551" data-date-string="2 Ноя 2024" data-time-string="09:39" title="2 Ноя 2024 в 09:39">Сегодня в 09:39</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%90%D1%80%D0%BC%D0%B8%D1%8F-%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8.29/">Армия �&nbsp;оссии</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/tom_sokolov.61/" class="avatar avatar--xxs" data-user-id="61" data-xf-init="member-tooltip">
+			<img src="images/61.jpg" alt="Tom_Sokolov" class="avatar-u61-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%A4%D0%A1%D0%91-%D0%A3%D0%BA%D0%B0%D0%B7-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0-%D0%A4%D0%A1%D0%91.69/post-135"><span class="label label--red" dir="auto">Важно</span><span class="label-append">�&nbsp;</span>ФСБ || Указ начальника ФСБ</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/tom_sokolov.61/" class="username " dir="auto" data-user-id="61" data-xf-init="member-tooltip"><span class="username--style11">Tom_Sokolov</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-02T00:54:59+0300" data-time="1730498099" data-date-string="2 Ноя 2024" data-time-string="00:54" title="2 Ноя 2024 в 00:54">Сегодня в 00:54</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%A3%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0-%D0%A4%D0%A1%D0%91.35/">Указы начальника ФСБ</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/index.php?members/tom_sokolov.61/" class="avatar avatar--xxs" data-user-id="61" data-xf-init="member-tooltip">
+			<img src="images/61.jpg" alt="Tom_Sokolov" class="avatar-u61-s" width="48" height="48" loading="lazy"> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/index.php?threads/%D0%A4%D0%A1%D0%91-%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82-%D0%9B%D0%B8%D0%B4%D0%B5%D1%80%D0%B0.63/post-134"><span class="label label--orange" dir="auto">На рассмотрении</span><span class="label-append">�&nbsp;</span>ФСБ || Кабинет Лидера</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					
+	
+	<li>От: <a href="/index.php?members/tom_sokolov.61/" class="username " dir="auto" data-user-id="61" data-xf-init="member-tooltip"><span class="username--style11">Tom_Sokolov</span></a></li>
+
+					<li><time class="u-dt" dir="auto" datetime="2024-11-01T22:51:30+0300" data-time="1730490690" data-date-string="1 Ноя 2024" data-time-string="22:51" title="1 Ноя 2024 в 22:51">Вчера в 22:51</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/index.php?forums/%D0%A4%D0%A1%D0%91.22/">ФСБ</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+	</div>
+
+
+				
+			</div>
+			<div class="pre-footer--column">
+				
+					
+	<div class="block" data-widget-id="2" data-widget-key="member_wrapper_newest_members" data-widget-definition="newest_members">
+		<div class="block-container">
+			<h3 class="block-minorHeader">Новые пользователи</h3>
+			<div class="block-body block-row">
+				<ul class="listHeap">
+					
+						<li>
+							<a href="/index.php?members/twix_vortexzz.104/" class="avatar avatar--s" data-user-id="104" data-xf-init="member-tooltip" img="true">
+			<img src="images/104.jpg" srcset="images/104_1.jpg 2x" alt="Twix_Vortexzz" class="avatar-u104-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/maksikvin.102/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="102" data-xf-init="member-tooltip" img="true" style="background-color: #339966; color: #06130d">
+			<span class="avatar-u102-s" role="img" aria-label="maksikvin">M</span> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/lucifer-advent-%F0%93%86%A9%EA%A8%84%EF%B8%8E%F0%93%86%AA.99/" class="avatar avatar--s" data-user-id="99" data-xf-init="member-tooltip" img="true">
+			<img src="images/99.jpg" srcset="images/99_1.jpg 2x" alt="Lucifer Advent 𓆩ꨄ︎𓆪" class="avatar-u99-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/mike_hunter.97/" class="avatar avatar--s" data-user-id="97" data-xf-init="member-tooltip" img="true">
+			<img src="images/97.jpg" srcset="images/97_1.jpg 2x" alt="Mike_Hunter" class="avatar-u97-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/kirill11.96/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="96" data-xf-init="member-tooltip" img="true" style="background-color: #6666cc; color: #ececf9">
+			<span class="avatar-u96-s" role="img" aria-label="Kirill11">K</span> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/senya.95/" class="avatar avatar--s" data-user-id="95" data-xf-init="member-tooltip" img="true">
+			<img src="images/95.jpg" srcset="images/95_1.jpg 2x" alt="senya" class="avatar-u95-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/timofei_weed.94/" class="avatar avatar--s" data-user-id="94" data-xf-init="member-tooltip" img="true">
+			<img src="images/94.jpg" srcset="images/94_1.jpg 2x" alt="Timofei_Weed" class="avatar-u94-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/alex-molars.92/" class="avatar avatar--s" data-user-id="92" data-xf-init="member-tooltip" img="true">
+			<img src="images/92.jpg" srcset="images/92_1.jpg 2x" alt="Alex Molars" class="avatar-u92-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/maxim_gromov.87/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="87" data-xf-init="member-tooltip" img="true" style="background-color: #e085a3; color: #8f2447">
+			<span class="avatar-u87-s" role="img" aria-label="Maxim_Gromov">M</span> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/akame_sanata.86/" class="avatar avatar--s" data-user-id="86" data-xf-init="member-tooltip" img="true">
+			<img src="images/86.jpg" srcset="images/86_1.jpg 2x" alt="Akame_Sanata" class="avatar-u86-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/andriy_filipuk.85/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="85" data-xf-init="member-tooltip" img="true" style="background-color: #66cc66; color: #206020">
+			<span class="avatar-u85-s" role="img" aria-label="Andriy_Filipuk">A</span> 
+		</a>
+						</li>
+					
+						<li>
+							<a href="/index.php?members/alex_filson.82/" class="avatar avatar--s" data-user-id="82" data-xf-init="member-tooltip" img="true">
+			<img src="images/82.jpg" srcset="images/82_1.jpg 2x" alt="Alex_Filson" class="avatar-u82-s" width="48" height="48" loading="lazy"> 
+		</a>
+						</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+				
+			</div>
+			<div class="pre-footer--column">
+				
+					<div class="pre-footer--content -social">
+						<h3></h3>
+						<ul class="social__icons">
+							
+							
+							
+							
+						</ul>
+					</div>
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="p-footer" id="footer">
+	<div class="p-footer-inner">
+
+		<div class="p-footer-row">
+			
+				<div class="p-footer-row-main">
+					<ul class="p-footer-linkList">
+					
+						
+							<li><a href="/index.php?misc/style" data-xf-click="overlay" data-xf-init="tooltip" title="Выбор стиля" rel="nofollow">
+								<i class="fa--xf far fa-paint-brush" aria-hidden="true"></i> Темный стиль
+							</a></li>
+						
+						
+							<li><a href="/index.php?misc/language" data-xf-click="overlay" data-xf-init="tooltip" title="Выбор языка" rel="nofollow">
+								<i class="fa--xf far fa-globe" aria-hidden="true"></i> Russian (RU)</a></li>
+						
+						
+
+						
+							<li><a href="/index.php?help/terms/">Условия и правила</a></li>
+						
+
+						
+							<li><a href="/index.php?help/privacy-policy/">Политика конфиденциальности</a></li>
+						
+
+						
+							<li><a href="/index.php?help/">Помощь</a></li>
+						
+
+						
+							<li><a href="https://forum.azuremobile.ru">Главная</a></li>
+						
+
+						<li><a href="/index.php?forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf far fa-rss" aria-hidden="true"></i><span class="u-srOnly">RSS</span></span></a></li>
+					
+					</ul>
+				</div>
+			
+			<div class="p-footer-row-opposite">
+				
+					<div class="p-footer-copyright">
+					
+						
+						<div style="text-align: left">Локализация от <a href="https://xenforo.info/" target="_blank">XenForo.Info</a></div>
+					
+						
+							<br>
+							Theming with <i class="fa fa-heart animate-pulse"></i> by: <a href="http://www.dohtheme.com">DohTheme</a>
+						
+					</div>
+				
+			</div>
+		</div>
+
+		
+	</div>
+</footer>
+
+</div> <!-- closing p-pageWrapper -->
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+	
+		
+	
+		
+		
+		
+
+		<ul class="notices notices--bottom_fixer  js-notices" data-xf-init="notices" data-type="bottom_fixer" data-scroll-interval="6">
+
+			
+				
+	<li class="notice js-notice notice--primary notice--cookie" data-notice-id="-1" data-delay-duration="0" data-display-duration="0" data-auto-dismiss="0" data-visibility="">
+
+		
+		
+		<div class="notice-container">
+			<span class="notice-icon"><i class="fal fa-exclamation-circle"></i></span>
+			<div class="notice-content">
+				
+				<div class="u-alignCenter">
+	На данном сайте используются файлы cookie, чтобы персонализировать контент и сохранить Ваш вход в систему, если Вы зарегистрируетесь.<br>
+Продолжая использовать этот сайт, Вы соглашаетесь на использование наших файлов cookie.
+</div>
+
+<div class="u-inputSpacer u-alignCenter">
+	<a href="/index.php?account/dismiss-notice" class="js-noticeDismiss button--notice button button--icon button--icon--confirm"><span class="button-text">Принять</span></a>
+	<a href="/index.php?help/cookies" class="button--notice button"><span class="button-text">Узнать больше...</span></a>
+</div>
+			</div>
+		</div>
+	</li>
+
+			
+		</ul>
+	
+
+	
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+		<a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-chevron-up" aria-hidden="true"></i><span class="u-srOnly">Сверху</span></span></a>
+		
+	</div>
+
+
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/vendor-compiled.js"></script>
+	<script src="js/core-compiled.js"></script>
+	<script src="js/notice.min.js"></script>
+<script src="js/index.js"></script>
+
+	<script>
+		jQuery.extend(true, XF.config, {
+			// 
+			userId: 0,
+			enablePush: false,
+			pushAppServerKey: '',
+			url: {
+				fullBase: 'https://forum.azuremobile.ru/',
+				basePath: '/',
+				css: '/css.php?css=__SENTINEL__&s=3&l=2&d=1730543163',
+				keepAlive: '/index.php?login/keep-alive'
+			},
+			cookie: {
+				path: '/',
+				domain: '',
+				prefix: 'xf_',
+				secure: true
+			},
+			cacheKey: 'bc06743a5885ccc64e1185fbf0f09f08',
+			csrf: '1730565010,6a24c5cc03de7b2b91eac7c83af7176f',
+			js: {"\/js\/xf\/notice.min.js?_v=7c58adc9":true,"\/js\/foroagency\/coloredusername\/index.js?_v=7c58adc9":true},
+			css: {"public:node_list.less":true,"public:notices.less":true,"public:share_controls.less":true,"public:extra.less":true},
+			time: {
+				now: 1730565010,
+				today: 1730494800,
+				todayDow: 6,
+				tomorrow: 1730581200,
+				yesterday: 1730408400,
+				week: 1729976400
+			},
+			borderSizeFeature: '3px',
+			fontAwesomeWeight: 'r',
+			enableRtnProtect: true,
+			
+			enableFormSubmitSticky: true,
+			uploadMaxFilesize: 8388608,
+			allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+			allowedAudioExtensions: ["mp3","opus","ogg","wav"],
+			shortcodeToEmoji: true,
+			visitorCounts: {
+				conversations_unread: '0',
+				alerts_unviewed: '0',
+				total_unread: '0',
+				title_count: true,
+				icon_indicator: true
+			},
+			jsState: {},
+			publicMetadataLogoUrl: '/data/styles/2/styles/fury/xenforo/xenforo-logo.png',
+			publicPushBadgeUrl: '/data/styles/2/styles/fury/xenforo/xenforo-logo.png'
+		});
+
+		jQuery.extend(XF.phrases, {
+			// 
+			date_x_at_time_y: "{date} в {time}",
+			day_x_at_time_y:  "{day} в {time}",
+			yesterday_at_x:   "Вчера в {time}",
+			x_minutes_ago:    "{minutes} мин. назад",
+			one_minute_ago:   "1 минуту назад",
+			a_moment_ago:     "Только что",
+			today_at_x:       "Сегодня в {time}",
+			in_a_moment:      "В настоящее время",
+			in_a_minute:      "Менее минуты назад",
+			in_x_minutes:     "Через {minutes} мин.",
+			later_today_at_x: "Сегодня в {time}",
+			tomorrow_at_x:    "Завтра в {time}",
+
+			day0: "Воскресенье",
+			day1: "Понедельник",
+			day2: "Вторник",
+			day3: "Среда",
+			day4: "Четверг",
+			day5: "Пятница",
+			day6: "Суббота",
+
+			dayShort0: "Вос",
+			dayShort1: "Пон",
+			dayShort2: "Вто",
+			dayShort3: "Сре",
+			dayShort4: "Чет",
+			dayShort5: "Пят",
+			dayShort6: "Суб",
+
+			month0: "Январь",
+			month1: "Февраль",
+			month2: "Март",
+			month3: "Апрель",
+			month4: "Май",
+			month5: "Июнь",
+			month6: "Июль",
+			month7: "Август",
+			month8: "Сентябрь",
+			month9: "Октябрь",
+			month10: "Ноябрь",
+			month11: "Декабрь",
+
+			active_user_changed_reload_page: "Ваша сессия истекла. Перезагрузите страницу.",
+			server_did_not_respond_in_time_try_again: "Сервер не ответил вовремя. Пожалуйста, попробуйте снова.",
+			oops_we_ran_into_some_problems: "Упс! Мы столкнулись с некоторыми проблемами.",
+			oops_we_ran_into_some_problems_more_details_console: "Упс! Мы столкнулись с некоторыми проблемами. Пожалуйста, попробуйте позже. Более детальную информацию об ошибке Вы можете посмотреть в консоли браузера.",
+			file_too_large_to_upload: "Файл слишком большой для загрузки.",
+			uploaded_file_is_too_large_for_server_to_process: "Загруженный файл слишком большой для обработки сервером.",
+			files_being_uploaded_are_you_sure: "Файлы все ещё загружаются. Вы действительно хотите отправить эту форму?",
+			attach: "Прикрепить файлы",
+			rich_text_box: "Текстовое поле с поддержкой форматирования",
+			close: "Закрыть",
+			link_copied_to_clipboard: "Ссылка скопирована в буфер обмена.",
+			text_copied_to_clipboard: "Скопировано",
+			loading: "Загрузка...",
+			you_have_exceeded_maximum_number_of_selectable_items: "Вы превысили максимальное количество выбираемых элементов.",
+
+			processing: "Обработка",
+			'processing...': "Обработка...",
+
+			showing_x_of_y_items: "Показано {count} из {total} элементов",
+			showing_all_items: "Показаны все элементы",
+			no_items_to_display: "Нет элементов для отображения",
+
+			number_button_up: "Увеличить",
+			number_button_down: "Уменьшить",
+
+			push_enable_notification_title: "Push-уведомления для сайта Azure Mobile успешно активированы",
+			push_enable_notification_body: "Спасибо за активацию push-уведомлений!"
+		});
+	</script>
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1">
+	</form>
+
+	
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"url": "https://forum.azuremobile.ru/index.php",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://forum.azuremobile.ru/index.php?search/search&keywords={search_keywords}",
+				"query-input": "required name=search_keywords"
+			}
+		}
+		</script>
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
